@@ -17,10 +17,11 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: white;
+      background-color:black;
     }
 
     .login-container {
+      
       width: 400px;
       padding: 30px;
       border-radius: 15px;
@@ -49,6 +50,7 @@
       background-color: #d8d8ff;
       color: #333;
       font-size: 16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     }
 
     .login-container button {
@@ -82,9 +84,16 @@
       margin-top: 20px;
     }
 
-   
+    .terms-privacy {
+      display: flex; 
+      justify-content: center;
+      margin-top: 10px;
+      font-size: 14px;
+    }
 
-    
+    .terms-privacy a {
+      margin: 0 5px; 
+    }
   </style>
 </head>
 <body>
@@ -103,14 +112,14 @@
       <img style="margin-right: 20px;" src="https://ucarecdn.com/6f56c0f1-c9c0-4d72-b44d-51a79ff38ea9/" alt="" height="24px">
       <img style="margin-right: 20px;" src="https://ucarecdn.com/82d7ca0a-c380-44c4-ba24-658723e2ab07/" alt="" height="24px">
       <img style="margin-right: 20px;" src="https://ucarecdn.com/3277d952-8e21-4aad-a2b7-d484dad531fb/" alt="" height="24px">
-    </div>
-    <br>
-
+    </div><br>
     
     <p>By signing in, you agree to our</p>
-    <p><a href="sriubg">Terms</a>and <a href="fgv">Privacy Policy</a></p>
+    <div class="terms-privacy">
+      <a href="#">Terms</a>
+      <span>and</span>
+      <a href="#">Privacy Policy</a>
+    </div>
   </div>
-
-  
 </body>
 </html>
